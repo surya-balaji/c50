@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    border: solid;
+}
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    
+}
+p,h2{
+    text-align: center;
+}
